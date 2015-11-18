@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\main.cpp" />
+    <ClCompile Include="..\..\..\volume\volume_loader_raw.cpp" />
+    <ClCompile Include="..\..\..\volume\transfer_function.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\OculusRoomTiny_Advanced\Common\Win32_GLAppUtil.h" />
+    <ClInclude Include="..\..\..\volume\volume_loader_raw.hpp" />
+    <ClInclude Include="..\..\..\volume\transfer_function.hpp" />
+    <ClInclude Include="..\..\..\volume\data_types_fwd.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\volume\shader\volume.frag" />
+    <None Include="..\..\..\volume\shader\volume.vert" />
+  </ItemGroup>
+</Project>
